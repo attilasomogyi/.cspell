@@ -108,3 +108,7 @@
 ~tagname
 ~specialchars
 ~htmlhint
+~pushurl
+~getopt
+~longoptions
+~toplevel
