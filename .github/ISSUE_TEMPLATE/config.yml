@@ -1,0 +1,6 @@
+---
+blank_issues_enabled: false
+contact_links:
+  - name: Cspell custom dictionary questions on StackOverflow
+    url: https://stackoverflow.com/questions/tagged/cspell
+    about: Please ask and answer questions here.

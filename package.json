@@ -1,0 +1,26 @@
+{
+  "name": "cspell-custom-dictionary",
+  "version": "1.0.0",
+  "description": "Cspell custom dictionary for other projects.",
+  "main": "index.js",
+  "repository": "git@github.com:attilasomogyi/.cspell.git",
+  "author": "Attila Zsolt Somogyi",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@prantlf/jsonlint": "latest",
+    "cspell": "^6.31.1",
+    "editorconfig-checker": "latest",
+    "husky": "latest",
+    "is-ci": "latest",
+    "lint-staged": "latest",
+    "markdownlint-cli": "^0.33.0",
+    "v8r": "^1.0.0"
+  },
+  "scripts": {
+    "prepare": "yarn is-ci || yarn husky install",
+    "test": "yarn lint-staged"
+  },
+  "dependencies": {}
+}

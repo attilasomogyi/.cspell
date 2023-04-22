@@ -1,0 +1,39 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "useGitignore": true,
+  "cache": {
+    "useCache": true,
+    "cacheStrategy": "content",
+    "cacheFormat": "universal",
+    "cacheLocation": "./cache/cspell-cache"
+  },
+  "dictionaries": [
+    "custom-asterisk",
+    "custom-linux-distributions",
+    "custom-sphinx",
+    "custom-usernames"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "custom-asterisk",
+      "path": "./src/custom-asterisk.txt",
+      "addWords": true
+    },
+    {
+      "name": "custom-linux-distributions",
+      "path": "./src/custom-linux-distributions.txt",
+      "addWords": true
+    },
+    {
+      "name": "custom-sphinx",
+      "path": "./src/custom-sphinx.txt",
+      "addWords": true
+    },
+    {
+      "name": "custom-usernames",
+      "path": "./src/custom-usernames.txt",
+      "addWords": true
+    }
+  ]
+}

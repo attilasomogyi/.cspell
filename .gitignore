@@ -1,0 +1,7 @@
+docs/build
+node_modules
+cache/cspell-cache
+report
+styles/*
+!styles/custom
+yarn-error.log
