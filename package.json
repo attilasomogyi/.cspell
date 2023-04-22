@@ -10,17 +10,17 @@
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
     "@prantlf/jsonlint": "latest",
-    "cspell": "^6.31.1",
+    "cspell": "latest",
     "editorconfig-checker": "latest",
     "husky": "latest",
     "is-ci": "latest",
     "lint-staged": "latest",
-    "markdownlint-cli": "^0.33.0",
-    "v8r": "^1.0.0"
+    "markdownlint-cli": "latest",
+    "v8r": "latest"
   },
   "scripts": {
     "prepare": "yarn is-ci || yarn husky install",
-    "test": "exit 0"
+    "test": "yarn lint-staged"
   },
   "dependencies": {}
 }
