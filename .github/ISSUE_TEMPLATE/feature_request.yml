@@ -10,7 +10,7 @@ body:
   - type: dropdown
     id: affected-packages
     attributes:
-      label: Which @cspell custom dictionary/* package(s) are relevant/related to the feature request?
+      label: Which @source code/* package(s) are relevant/related to the feature request?
       options:
         - animations
         - bazel
