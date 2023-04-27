@@ -86,6 +86,7 @@
 ~qute
 ~redbook
 ~sakila
+~searchpath
 ~secretlintrc
 ~semeru
 ~shadowman
