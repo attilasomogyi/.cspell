@@ -59,6 +59,7 @@
 ~kplus
 ~kubespray
 ~kylin
+~languagetool
 ~laravel
 ~longoptions
 ~markdownlint
